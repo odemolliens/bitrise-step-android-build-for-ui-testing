@@ -223,10 +223,6 @@ func mainE(config Configs) error {
 		}
 	}
 
-	if exportedAppArtifact == "" {
-		return fmt.Errorf("Could not find the exported app APK")
-	}
-
 	if exportedTestArtifact == "" {
 		return fmt.Errorf("Could not find the exported test APK")
 	}
